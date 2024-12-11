@@ -3,7 +3,7 @@ import { InspirationGeneratorWrapper } from "@/components/inspiration-generator"
 import { Copyright } from "@/components/copyright";
 import { RenderingFrame } from "@/components/rendering-frame";
 
-export default function Home() {
+export default function ComponentRenderingPage() {
 	return (
 		<div className="page">
 			<main className="main">

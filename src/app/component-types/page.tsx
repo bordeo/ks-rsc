@@ -3,7 +3,7 @@ import { RenderOnMount } from "@/components/render-on-mount";
 import { Welcome } from "@/components/welcome";
 import { ShowFileInfo } from "@/components/show-file-info";
 
-export default function Home() {
+export default function ComponentTypesPage() {
 	return (
 		<div className="page">
 			<main className="main">
