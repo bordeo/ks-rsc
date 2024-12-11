@@ -14,7 +14,7 @@ export function HelloAndGreetings() {
 	}, []);
 
 	return (
-		<div style={{ background: "lightpink", padding: 15, fontSize: 30 }}>
+		<div style={{ padding: 15, fontSize: 30 }}>
 			🏗️ Hello{greetings && " World"}
 		</div>
 	);

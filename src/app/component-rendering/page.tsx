@@ -15,12 +15,12 @@ export default function Home() {
 				<InspirationGeneratorWrapper
 					top={
 						<RenderingFrame>
-							<FancyText text="Top text" />
+							<FancyText text="Top text as a prop" />
 						</RenderingFrame>
 					}
 					bottom={
 						<RenderingFrame>
-							<span>Bottom text</span>
+							<span>Bottom text as a prop</span>
 						</RenderingFrame>
 					}
 				>

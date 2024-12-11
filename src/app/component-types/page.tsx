@@ -9,24 +9,31 @@ export default function Home() {
 			<main className="main">
 				<h1>Component Types ⭐ 🏗️ 🚀</h1>
 				<br />
-				<p>
-					↓ This is a ⭐ <strong>Client Side Rendered Component</strong>
-					<br />↓ This is a ⭐ <strong>React Component</strong>
-					<br />↓ This is a ⭐<strong>Component</strong>
-				</p>
-				<RenderOnMount>
-					<Welcome />
-				</RenderOnMount>
-				<p>
-					↓ This is a 🏗️ <strong>Server Side Rendered Component</strong>
-					<br />↓ This is a 🏗️ <strong>SSR Component</strong>
-				</p>
-				<HelloAndGreetings />
-				<p>
-					↓ This is a 🚀 <strong>React Server Component</strong>
-					<br />↓ This is a 🚀 <strong>Server Component</strong>
-				</p>
-				<ShowFileInfo />
+				<div className="main csr-component">
+					<p>
+						↓ This is a ⭐ <strong>Component</strong>
+						<br />↓ This is a ⭐ <strong>Client Side Rendered Component</strong>
+					</p>
+					<RenderOnMount>
+						<Welcome />
+					</RenderOnMount>
+				</div>
+				<hr />
+				<div className="main ssr-component">
+					<p>
+						↓ This is a 🏗️ <strong>Server Side Rendered Component</strong>
+						<br />↓ This is a 🏗️ <strong>SSR Component</strong>
+					</p>
+					<HelloAndGreetings />
+				</div>
+				<hr />
+				<div className="main rsc-component">
+					<p>
+						↓ This is a 🚀 <strong>React Server Component</strong>
+						<br />↓ This is a 🚀 <strong>Server Component</strong>
+					</p>
+					<ShowFileInfo />
+				</div>
 			</main>
 		</div>
 	);

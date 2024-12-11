@@ -59,6 +59,21 @@ h1 {
   grid-row-start: 2;
 }
 
+.csr-component {
+    background: azure;
+    padding: 15px;
+}
+
+.ssr-component {
+  background: lightskyblue;
+  padding: 15px;
+}
+
+.rsc-component {
+  background: lightyellow;
+  padding: 15px;
+}
+
 
 .page {
   --gray-rgb: 0, 0, 0;
