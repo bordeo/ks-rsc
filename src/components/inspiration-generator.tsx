@@ -20,17 +20,13 @@ export function InspirationGenerator({ children, top, bottom }: Props) {
 	return (
 		<>
 			{top}
-			<RenderingFrame>
-				<p>Your inspirational quote is:</p>
-			</RenderingFrame>
+			<p>Your inspirational quote is:</p>
 			<RenderingFrame>
 				<FancyText text={quote} />
 			</RenderingFrame>
-			<RenderingFrame>
-				<button type="button" onClick={next} className="button">
-					Inspire me again
-				</button>
-			</RenderingFrame>
+			<button type="button" onClick={next} className="button">
+				Inspire me again
+			</button>
 			{children}
 			{bottom}
 		</>
