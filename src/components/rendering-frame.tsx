@@ -1,5 +1,12 @@
-import { isClientComponent } from "@/utils/rsc";
 import { Children, type ReactNode } from "react";
+
+function isClientComponent() {
+	return !!(
+		typeof window !== "undefined" &&
+		window.document &&
+		window.document.createElement
+	);
+}
 
 const isClient = isClientComponent();
 
